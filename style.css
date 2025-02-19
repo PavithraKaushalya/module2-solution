@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Desktop Layout */
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu-item {
+    width: 30%;
+    background-color: #ddd;
+    border: 1px solid black;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.chicken {
+    background-color: lightcoral;
+}
+
+.beef {
+    background-color: crimson;
+    color: white;
+}
+
+.sushi {
+    background-color: gold;
+}
+
+/* Make text readable */
+.menu-item p {
+    margin-top: 30px;
+}
